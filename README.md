@@ -1,24 +1,44 @@
-Jaspr is a private AI assistant that runs entirely on your iPhone. No cloud. No account. No data ever leaves your device.
+# Jaspr
 
-Download an open-source language model, and Jaspr becomes your personal AI -- ready to chat, answer questions, brainstorm ideas, draft messages, and help you think. Everything happens on the Neural Engine inside your phone. Works in airplane mode.
+**Private AI assistant for iPhone and iPad. Everything runs on your device.**
 
-CHAT
-Talk to a real AI that lives on your device. Jaspr supports multiple open-source models including Llama, Gemma, Phi, and Qwen. Pick the one that fits your device and your style. Conversations persist across sessions so you never lose context.
+Jaspr is an on-device AI app built by [Emrld Labs](https://emrldlabs.com). Chat with language models, analyze photos with vision models, and generate images with Stable Diffusion -- all running locally on Apple Silicon. No cloud. No accounts. No data ever leaves your phone.
 
-VISION
-Show Jaspr a photo or point your camera at something. Vision-capable models can describe what they see, read text in images, answer questions about photos, and help you understand the world around you. All processing stays on-device.
+## Features
 
-CREATE
-Generate images from text descriptions using Stable Diffusion, running directly on the Neural Engine. Type a prompt, tap generate, and watch your idea become an image -- no internet required. Save your creations to Photos or share them.
+- **Chat** -- Talk to open-source language models running on your device
+- **Vision** -- Point your camera or pick a photo for on-device analysis
+- **Create** -- Generate images from text using Stable Diffusion on the Neural Engine
+- **Agents** -- Build custom AI agents with their own personality and tools
+- **Models** -- Download, manage, and delete models on your terms
 
-YOUR MODELS, YOUR CHOICE
-Browse a curated catalog of open-source AI models. Download what you want. Delete what you don't. See exactly how much space each model uses. Jaspr never forces a model on you and never paywalls access to any model.
+## Privacy
 
-PRIVACY IS THE PRODUCT
-Jaspr has no server. No analytics. No telemetry. No account system. No login. Your conversations, your photos, your generated images, and your model choices stay on your device. Period. We built Jaspr because we believe AI should work for you, not watch you.
+All AI inference runs on-device. Jaspr does not use any cloud-based AI service. No data is sent to any server. The only network request the app makes is a one-time download of open-source model files from [HuggingFace](https://huggingface.co). After that, the app works fully offline.
 
-DESIGNED FOR FOCUS
-Dark interface. Clean typography. No ads. No banners. No interruptions. Jaspr gets out of the way so you can think.
+No accounts. No analytics. No telemetry. No third-party SDKs.
 
-JASPR PRO (Optional One-Time Purchase)
-Unlock premium features including saving images without watermarks, sharing conversations as PDF, custom AI personas, expanded image history, and access to the curated prompt library. All models remain free. Pro is a one-time purchase -- no subscription, no recurring charges, yours forever.
+[Read the full Privacy Policy](https://www.notion.so/scottmanley/Jaspr-Privacy-Policy-349470c8ef41804498eefcc3ff8bf970)
+
+## Support
+
+**Found a bug?** [Open an issue](https://github.com/workmanl/Jaspr/issues/new?template=bug_report.md) with steps to reproduce and your device model.
+
+**Have a feature request?** [Open an issue](https://github.com/workmanl/Jaspr/issues/new?template=feature_request.md) with `[Feature Request]` in the title.
+
+**General questions?** Check the [Support Page](https://emrldlabs.com/jaspr/support) for FAQs and troubleshooting.
+
+## Requirements
+
+- iPhone or iPad with Apple Silicon (A14+ / M1+)
+- iOS 18.0 or later
+
+## Links
+
+- [Support Page](https://emrldlabs.com/jaspr/support)
+- [Privacy Policy](https://www.notion.so/scottmanley/Jaspr-Privacy-Policy-349470c8ef41804498eefcc3ff8bf970)
+- [Emrld Labs](https://emrldlabs.com)
+
+---
+
+Made by [Emrld Labs](https://emrldlabs.com) in Seattle.
